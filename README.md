@@ -1,4 +1,4 @@
-Sistemi za preporucivanje
+Sistemi za preporucivanje:
 
 data_prep.R - Unos podataka i priprema za obradu.
 
