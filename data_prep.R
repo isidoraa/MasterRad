@@ -168,24 +168,6 @@ moviesDF = remove_unrated_genres(ratingsDF_train, moviesDF, genreList)
 usersDF = prep_users()
 # -----------------------------------------------------------------------------------------
 
-# plan ------------------------------------------------------------------------------------
-#-Content1: cosine distance
-#-User based: k najblizih suseda
-#neki model based collaborative filtering (hibridni?) koji bi ukljucio i demografske podatke (logisticka)
-#-Monte Karlo - npr 10 simulacija
-#Metrike (ocene)
-## -precission, recall, accuracy, f1
-## brzina?
-## -pokrivenost - filmovi
-## -pokrivenost - korisnici
-#teorija
-## klasifikacija - logisticka
-## evaluacija - dodati standardne stvari za greske
-## ispisati prakticni deo
-## zakljucak
-## abstrakt
-# staviti kod na github
-# ----------------------------------------------------------------------------------------
 
 
 
