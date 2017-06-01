@@ -9,7 +9,6 @@ library(geometry)
 options(stringsAsFactors=FALSE)
 
 # podesavanje direktorijuma za rad
-#setwd("C:/Users/isido/Dropbox/Master rad/MasterR")
 setwd("C:/Users/isidora.jovandic/Dropbox/Master rad/MasterR")
 
 #lista svih zanrova
