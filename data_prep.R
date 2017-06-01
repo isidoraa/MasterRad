@@ -158,13 +158,13 @@ ratingsDF_test = ratingsDF[-train_sample,]
 userCount = length(unique(ratingsDF$userId))
 # ova tabela vise nije potrebna
 rm(ratingsDF)
-#unos filmova
+# unos filmova
 moviesDF = prep_genres(genreList)
-#broj filmova
+# broj filmova
 movieCount = nrow(moviesDF)
-#uklanjanje nepotrebnih zanrova
+# uklanjanje nepotrebnih zanrova
 moviesDF = remove_unrated_genres(ratingsDF_train, moviesDF, genreList)
-#unos korisnika
+# unos korisnika
 usersDF = prep_users()
 # -----------------------------------------------------------------------------------------
 
